@@ -135,7 +135,7 @@ export const Picker = ({
               textColor={processColor(textColor)}
               textSize={textSize}
               selectedIndex={selectedIndexes[index]}
-              style={styles.picker}
+              style={[styles.picker, style]}
               testID={testID}
             />
           </View>
